@@ -1,0 +1,49 @@
+general {
+  colors = true
+  interval = 5
+  separator = ""
+  #separator_block_width = 50
+}
+#bar {
+#  sep_block_width = 5
+#}
+# order += "ipv6"
+order += "wireless _first_"
+order += "ethernet _first_"
+order += "battery all"
+order += "disk /"
+order += "load"
+order += "memory"
+order += "tztime local"
+
+wireless _first_ {
+  format_up = "[󰖩%quality %essid %ip]"
+  format_down = "[󰖩down]"
+}
+
+ethernet _first_ {
+  format_up = "[󰈀 %speed %ip]"
+  format_down = "[󰈀 down]"
+}
+
+battery all {
+  format = "[ %status %percentage %remaining]"
+}
+
+disk "/" {
+  format = "[󱛟 %avail free]"
+}
+
+load {
+  format = "[ %1min]"
+}
+
+memory {
+  format = "[ %used / %total]"
+  threshold_degraded = "1G"
+  format_degraded = "[MEMORY < %available]"
+}
+
+tztime local {
+  format = "[󰃭 %Y-%m-%d] [󰥔 %H:%M:%S]"
+}
