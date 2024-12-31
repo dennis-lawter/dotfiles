@@ -8,7 +8,7 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.fontFamily": "'DankMono Nerd Font', 'JetBrains Mono NFM', 'monospace', monospace",
     "terminal.integrated.fontSize": 16,
-    "glassit.alpha": 220,
+    "glassit.alpha": 240,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "explorer.compactFolders": false,
