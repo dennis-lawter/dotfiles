@@ -20,4 +20,8 @@
     "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.formatOnSave": true,
     "git.autofetch": true,
+    "terminal.integrated.automationProfile.linux": {
+        "args": [],
+        "path": "/run/current-system/sw/bin/zsh"
+    },
 }
