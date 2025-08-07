@@ -1,0 +1,4 @@
+2025-08-07 13:25:32.474 [info] Started local extension host with pid 104631.
+2025-08-07 13:25:32.540 [error] [/home/bytomancer/.vscode-oss/extensions/geequlim.godot-tools-2.5.1-universal]: Extension is not compatible with Code 1.94.1. Extension requires: ^1.96.0.
+2025-08-07 13:25:32.555 [error] [/home/bytomancer/.vscode-oss/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.6-universal]: Extension is not compatible with Code 1.94.1. Extension requires: ^1.99.0.
+2025-08-07 13:25:35.344 [info] [perf] Render performance baseline is 16ms

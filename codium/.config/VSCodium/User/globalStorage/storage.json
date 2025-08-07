@@ -6,12 +6,6 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/bytomancer/projects/rust/travdata"
-            },
-            {
-                "folderUri": "file:///home/bytomancer/projects/obsidian/obsidian-vault"
-            },
-            {
                 "folderUri": "file:///home/bytomancer/dotfiles"
             }
         ],
@@ -82,7 +76,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -97,152 +92,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/dotfiles"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/projects/rust/pico-cbar",
-                                        "path": "/home/bytomancer/projects/rust/pico-cbar",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/rust/pico-cbar"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/dotfiles/rofi",
-                                        "path": "/home/bytomancer/dotfiles/rofi",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/dotfiles/rofi"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/dotfiles/rofi/.config/rofi",
-                                        "path": "/home/bytomancer/dotfiles/rofi/.config/rofi",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/dotfiles/rofi/.config/rofi"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/projects/rust/webhelloworld",
-                                        "path": "/home/bytomancer/projects/rust/webhelloworld",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/rust/webhelloworld"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/projects/rust/pico-pet",
-                                        "path": "/home/bytomancer/projects/rust/pico-pet",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/rust/pico-pet"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/projects/obsidian/obsidian-vault",
-                                        "path": "/home/bytomancer/projects/obsidian/obsidian-vault",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/obsidian/obsidian-vault"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/projects/rust/rpghp-rs",
-                                        "path": "/home/bytomancer/projects/rust/rpghp-rs",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/rust/rpghp-rs"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/projects/rust/travdata",
-                                        "path": "/home/bytomancer/projects/rust/travdata",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/rust/travdata"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/projects/bitonicsoft/qwopcopter-gdd",
-                                        "path": "/home/bytomancer/projects/bitonicsoft/qwopcopter-gdd",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/bitonicsoft/qwopcopter-gdd"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/Downloads/Subdivisions%20%23art%20%23animation%20-%20OFF%20SCRIPT%20%281080p%2C%20h264%29.mp4",
-                                        "path": "/home/bytomancer/Downloads/Subdivisions #art #animation - OFF SCRIPT (1080p, h264).mp4",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/Subdivisions #art #animation - OFF SCRIPT (1080p, h264).mp4"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/.steam/steam/steamapps/common/Half-Life%202/hl2/scripts/weapon_crowbar.txt",
-                                        "path": "/home/bytomancer/.steam/steam/steamapps/common/Half-Life 2/hl2/scripts/weapon_crowbar.txt",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.steam/steam/steamapps/common/Half-Life 2/hl2/scripts/weapon_crowbar.txt"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/projects/misc/codewars_65b9af728732e1002463ab5e.py",
-                                        "path": "/home/bytomancer/projects/misc/codewars_65b9af728732e1002463ab5e.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/misc/codewars_65b9af728732e1002463ab5e.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/bytomancer/projects/bitonicsoft/qwopcopter-gdd/Qwopcopter%20Vault/.obsidian/snippets/headerrainbow.css",
-                                        "path": "/home/bytomancer/projects/bitonicsoft/qwopcopter-gdd/Qwopcopter Vault/.obsidian/snippets/headerrainbow.css",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/projects/bitonicsoft/qwopcopter-gdd/Qwopcopter Vault/.obsidian/snippets/headerrainbow.css"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -603,8 +452,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -881,10 +729,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -908,7 +752,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -916,7 +761,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -925,7 +771,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -935,17 +782,6 @@
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "workbench.action.focusFirstSideEditor",
-                                    "label": "&&First Side in Editor"
-                                },
-                                {
-                                    "id": "workbench.action.focusSecondSideEditor",
-                                    "label": "&&Second Side in Editor"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.action.nextEditor",
                                     "label": "&&Next Editor"
@@ -1256,7 +1092,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1844,7 +1681,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 402,
+            "sideBarWidth": 300,
             "statusBarHeight": 22,
             "windowBorder": false
         }
