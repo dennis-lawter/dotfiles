@@ -33,7 +33,7 @@ client.urgent            $peach    $base $peach $overlay0  $peach
 client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 client.background        $base
 
-font pango:monospace 12
+#font D2CodingLigature Nerd Font 12
 
 # bar
 bar {
@@ -49,6 +49,6 @@ bar {
     inactive_workspace $base  $base     $text
     urgent_workspace   $base  $red      $crust
   }
-  font pango:Jetbrains Mono Nerd Font 16
+  font pango:D2CodingLigature Nerd Font 16
   status_command i3status
 }

@@ -2,7 +2,7 @@ configuration {
 	modi: "window,run,drun";
 	width: 100;
 	lines: 30;
-	font: "JetBrains Mono NF 16";
+	font: "Iosevka Nerd Font 16";
 	location: 0;
 	padding: 270;
 	show-icons: true;
