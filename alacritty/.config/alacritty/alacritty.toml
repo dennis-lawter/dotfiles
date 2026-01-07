@@ -12,9 +12,9 @@ decorations_theme_variant = "Dark"
 
 [font]
 
-normal.family = "JetBrains Mono NF"
-bold.family = "JetBrains Mono NF"
-italic.family = "JetBrains Mono NF"
-bold_italic.family = "JetBrains Mono NF"
+normal.family = "D2CodingLigature Nerd Font"
+bold.family = "D2CodingLigature Nerd Font"
+italic.family = "D2CodingLigature Nerd Font"
+bold_italic.family = "D2CodingLigature Nerd Font"
 
 size = 16.0
