@@ -44,8 +44,13 @@ exec --no-startup-id compton
 # Set wallpaper
 # exec --no-startup-id xwinwrap -ni -nf -fdt -ovr -- mpv -wid WID wallpapers/honeypie.mp4 --no-audio --loop
 # bindsym $mod+b exec "killall xwinwrap && xwinwrap -ni -nf -fdt -ovr -- mpv -wid WID wallpapers/honeypie.mp4 --no-audio --loop"
+<<<<<<< Updated upstream
 bindsym $mod+b exec "killall xwinwrap; xwinwrap -ni -nf -ov -fs -- mpv -wid WID wallpapers/daynight.mp4 --no-audio --loop --panscan=1.0"
 bindsym $mod+shift+b exec "killall xwinwrap"
+=======
+# bindsym $mod+b exec "killall xwinwrap; xwinwrap --panscan 2.0 -ni -nf -ov -fs -- mpv -wid WID wallpapers/daynight.mp4 --no-audio --loop"
+bindsym $mod+b exec "killall xwinwrap; xwinwrap -g 3840x2160-1280 -ni -nf -ov -fs -- mpv -wid WID wallpapers/bocchi-bocchi-the-rock.gif --no-audio --loop --panscan=0.3"
+>>>>>>> Stashed changes
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -77,10 +82,10 @@ bindsym $mod+Print exec --no-startup-id deepin-screen-recorder
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+# bindsym $mod+j focus left
+# bindsym $mod+k focus down
+# bindsym $mod+l focus up
+# bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
