@@ -1,9 +1,12 @@
 {
     "workbench.colorTheme": "Zacks Contrast (rainglow)",
     "workbench.iconTheme": "material-icon-theme",
-    "xglass.alpha": 210,
     "editor.fontFamily": "'Iosevka NF', 'JetBrains Mono NFM', 'monospace', monospace",
     "editor.fontSize": 16,
+    "terminal.integrated.automationProfile.linux": {
+        "args": [],
+        "path": "/run/current-system/sw/bin/zsh"
+    },
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "'IosevkaTerm NF', 'D2CodingLigature Nerd Font', 'DankMono Nerd Font', 'JetBrains Mono NFM', 'monospace', monospace",
     "editor.fontLigatures": true,
@@ -19,10 +22,6 @@
     "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.formatOnSave": true,
     "git.autofetch": true,
-    "terminal.integrated.automationProfile.linux": {
-        "args": [],
-        "path": "/run/current-system/sw/bin/zsh"
-    },
     "explorer.confirmDelete": false,
     "git.autoRepositoryDetection": "openEditors",
     "editor.lineNumbers": "relative",

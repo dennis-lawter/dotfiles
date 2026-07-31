@@ -118,3 +118,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 
 alias nix-vs="nix develop --command codium ."
+alias new-nix-vs="nix flake init -t ~/nix-flake-templates/codium"
+alias nixi="git -C ~/yggdrassil-nixos add . && sudo ~/yggdrassil-nixos/nix-ygg"

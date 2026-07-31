@@ -1,4 +1,3 @@
-shell = "zsh"
 
 [window]
 
@@ -18,3 +17,6 @@ italic.family = "D2CodingLigature Nerd Font"
 bold_italic.family = "D2CodingLigature Nerd Font"
 
 size = 16.0
+
+[terminal]
+shell = "zsh"
